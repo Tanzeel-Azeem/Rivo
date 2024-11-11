@@ -7,6 +7,7 @@
 
 .header {
   display: flex;
+  width: 100%;
   justify-content: space-evenly;
   background-color: rgb(176, 224, 176);
   position: sticky;
@@ -116,7 +117,7 @@
   }
   .hero {
     height: 600px;
-    width: 420px;
+    width: 100%;
     background-image: url("https://fashionflare.pk/cdn/shop/files/3_22ab2239-c9c6-433b-8fc7-2e294b13d42a_300x.webp?v=1706700697");
     background-size: cover;
     background-position: center;
@@ -159,7 +160,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    /* justify-content: ; */
+    align-items: end;
     cursor: pointer;
     margin-left: 290px;
     margin-top: 13px;
@@ -223,6 +225,7 @@
 }
 
 .ul2-item {
+  width: 100%;
   list-style: none;
   display: flex;
   column-gap: 30px;
