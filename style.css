@@ -80,18 +80,15 @@
   margin-top: 20px;
   color: white;
   border: none;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding: 10px 20px 10px 20px;
   border-radius: 7px;
 }
 #btn:hover {
-  color: rgb(4, 73, 4);
-  background-color: white;
+  color: white;
+  background-color: rgb(25, 109, 25);
   transform: scale(1.04);
   transition-duration: 0.4s;
-  box-shadow: 2px 4px 5px black;
+  /* box-shadow: 2px 4px 5px black; */
   border: 1px;
   /* opacity: 0.8; */
 }
@@ -154,6 +151,7 @@
   .card-container {
     flex-wrap: wrap;
   }
+  
   .hamburger-icon {
     width: 35px;
     height: 30px;
@@ -181,9 +179,21 @@
   .hamburger-icon:hover span {
     background-color: #666; /* Changes color on hover */
   }
+  .fb-card{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .card4{
+    padding: 0px;
+    margin-right: 5px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  
+  
 }
 
-/* =====================best elling================ */
+/* =====================best selling================ */
 .section-text {
   text-align: center;
 }
@@ -208,20 +218,43 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-top: 30px;
-  column-gap: 15px;
+  column-gap: 20px;
+  padding: 5px 16px 5px 16px;
+}
+.card-container1 {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  column-gap: 20px;
+  /* padding: 5px 5px 5px 5px; */
 }
 .card {
   margin-bottom: 30px;
   padding-bottom: 30px;
+  padding: 7px;
+  border-radius: 10px;
+
+  background-color: #eeeeee;
   /* border: 1px groove black ; */
+}
+.card4{
+  padding: 10px;
 }
 .card p {
   text-align: center;
 }
 
+.card img{
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
 .card:hover {
   transform: scale(1.03);
-  box-shadow: 0px 2px 5px black;
+  box-shadow: 0px 0px 2px black;
+  transition: 0.3s;
 }
 
 .ul2-item {
@@ -240,9 +273,9 @@
   align-items: center;
   padding-left: 7px;
   padding-right: 7px;
+  margin-bottom: 20px;
   padding: 12px;
   font-size: 15px;
-
   padding-top: 3px;
   padding-bottom: 3px;
   background-color: rgb(4, 73, 4);
@@ -250,14 +283,16 @@
   border-radius: 3px;
   display: flex;
   border: none;
+  border-radius: 5px;
 }
 .card-button:hover {
-  background-color: white;
-  color: rgb(4, 73, 4);
-  border: 1px solid;
-  box-shadow: 2px 3px 5px rgb(4, 73, 4);
-  transition: 0.3s;
-  font-weight: 700;
+  background-color:rgb(3, 133, 3) ;
+  color: white;
+  /* border: 1px solid; */
+  /* box-shadow: 2px 3px 5px rgb(4, 73, 4); */
+  transition-duration: 0.4s;
+  border-radius: 9px;
+  /* font-weight: 700; */
 }
 
 /* ================contact=================== */
@@ -266,15 +301,26 @@
   justify-content: center;
   background-color: rgb(176, 224, 176);
   margin-bottom: 40px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 .form {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 1 solid rgb(176, 224, 176);
+  text-align: center;
+ 
+}
+.form input , textarea{
+  padding: 15px 10px 15px 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid  rgb(4, 73, 4);;
+  /* border-color: rgb(4, 73, 4);; */
 }
 .form legend {
   color: rgb(4, 73, 4);
+  
 }
 .form-button {
   text-align: center;
@@ -287,17 +333,18 @@
   padding-bottom: 6px;
   background-color: rgb(4, 73, 4);
   color: white;
-  border-radius: 3px;
+  border-radius: 7px;
   display: flex;
   border: none;
 }
 .form-button:hover {
-  background-color: white;
-  color: rgb(4, 73, 4);
-  border: 1px solid;
-  box-shadow: 2px 3px 5px rgb(4, 73, 4);
+  background-color: rgb(6, 158, 6);
+  border-radius: 7px;
+  color:white ;
+  /* border: 1px solid; */
+  /* box-shadow: 2px 3px 5px rgb(4, 73, 4); */
   transition: 0.3s;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
 /* Basic styling for the icon container */
@@ -341,6 +388,8 @@ a:visited {
   width: 400px;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
   padding: 10px;
   border: 1px solid rgb(4, 73, 4);
   color: rgb(4, 73, 4);
@@ -426,3 +475,8 @@ a:visited {
   padding: 10px;
 }
 
+.card3{
+  background-color: rgb(223, 223, 223);
+  border-radius: 10px;
+  margin-left: 0px;
+}
